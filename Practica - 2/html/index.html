@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Página web matemática</title>
+        <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+        <script type="text/javascript" src="../js/FuncionesMatematicas.js"></script>
+        <!-- CSS BootStrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- JSS BootStrap -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body background="../image/Mates_Fondo.jpg">
+        <div class="estructura">
+            <header>
+                <div class="logo_titulo">MatiPiWeb</div>
+            </header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" onclick="return Ejercicio1()" >Ejercicio - 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" onclick=" return Ejercicio2()" >Ejercicio - 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" onclick="return Ejercicio3()" >Ejercicio - 3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" onclick="return Ejercicio4()" >Ejercicio - 4</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" onclick="return Ejercicio5()" >Ejercicio - 5</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" onclick="return Ejercicio6()" >Ejercicio - 6</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" onclick="return Ejercicio7()" >Ejercicio - 7</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" onclick="return Ejercicio8()" >Ejercicio - 8</a>
+                            </li>
+                        </ul>
+                        
+                      </div>
+                </nav>
+            <section>
+                <br>
+                <h2 align="middle">Ejercicios Matemáticos</h2>
+                <p>
+                    Bienvenido a MatiPiWeb.
+                </p>
+                <p>
+                    A continuación se mostrará una serie de ejercicios matemáticos que automáticamente esta página lo resolverá.<br>
+                    ¿Qué no te lo crees? Pues mira los ejercicios que vienen ahora y da click a los links o en nuestra barra de navegación.
+                </p>
+                <h3>Ejercicio 1 - Acarreo de sumas</h3>
+                <p>
+                    Recibirá como entrada dos números y devolverá el número de veces que se ha producido acarreo en la suma.<br>
+                    Ejemplo: 123 + 456  No tiene ningun acarreo. <br><a href="javascript:Ejercicio1()">Hazme click para el Ejercicio 1</a>
+                    
+                </p>
+                <h3>Ejercicio 2 - Numeros Primos</h3>
+                <p>
+                        Determinar si dos números sin primos entre sí: Dos números son primos entre sí o coprimos si los divisores de uno no son divisores del otro y viceversa (excepto el 1). Es decir, el máximo común divisor de dos números coprimos es 1.<br>
+                        Ejemplo: 15 y 8 estos números son primos entre sí <br><a href="javascript:Ejercicio2()">Hazme click para el Ejercicio 2</a>
+                </p>
+                <h3>Ejercicio 3 - División de números</h3>
+                <p>
+                        Se implementará sin utilizar el operador de división (/). El programa debe devolver el cociente y el resto mediante la realización de restas sucesivas.<br>
+                        Ejemplo: 3989 1247 Cociente = 3 y el resto = 248 <br><a href="javascript:Ejercicio3()">Hazme click para el Ejercicio 3</a>
+                </p>
+                <h3>Ejercicio 4 - Multiplicación de dos números</h3>
+                <p>
+                        Se implementará sin utilizar el operador de multiplicación (*), realizando sumas sucesivas.<br>
+                        Ejemplo: 14 3 --> 14 + 14 + 14 = 42 <br><a href="javascript:Ejercicio4()">Hazme click para el Ejercicio 4</a>
+                </p>
+                <h3>Ejercicio 5 - Cambio de bases de numeración</h3>
+                <p>
+                        Recibirá un número y una base de numeración, y convertirá dicho número a la base indicada.<br>
+                        Ejemplo: 27 2 11011 <br><a href="javascript:Ejercicio5()">Hazme click para el Ejercicio 5</a>
+                </p>
+                <h3>Ejercicio 6 - Factores primos</h3>
+                <p>
+                        Cálculo de factores primos de un número: Recibirá un número y realizará la descomposición en factores primos del número.
+                        Ejemplo: 16 = 2 * 2 * 2 * 2 = 2 ^ 4 <br><a href="javascript:Ejercicio6()">Hazme click para el Ejercicio 6</a>
+                </p>
+                <h3>Ejercicio 7 - Suma de dígitos</h3>
+                <p>
+                        Recibirá un número entero positivo y sumará todos sus dígitos.<br>
+                        Ejemplo: 3433 La suma de sus digitos son 3 + 4 + 3 + 3 = 13 <br><a href="javascript:Ejercicio7()">Hazme click para el Ejercicio 7</a> 
+                </p>
+                <h3>Ejercicio 8 - Ceros del factorial</h3>
+                <p>
+                        Recibirá un número entero y devolverá el número de ceros que tiene al final el factorial de dicho número.<br>
+                        Ejemplo: 5! --> 120  Tiene un 0. <br><a href="javascript:Ejercicio8()">Hazme click para el Ejercicio 8</a>
+                </p>
+                <br>
+                <br>
+                
+            </section>
+
+        </div>
+        <footer>    
+            <div class="card text-center" >
+                    <div class="card-header">
+                    Sobre nosotros
+                    </div>
+                    <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Esto es una página web para una práctica, poco a poco se irá mejorando. Ajolá</p>
+                        <footer class="blockquote-footer">BootStrap es la clave de la rapidez <cite title="Source Title">por: Juaki</cite></footer>
+                    </blockquote>
+                    </div>
+                </div>
+            </footer>
+        
+        
+    </body>
+</html>
